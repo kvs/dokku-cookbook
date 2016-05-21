@@ -6,9 +6,8 @@ description "Manages a dokku install."
 long_description "Manages a dokku install and provides LWRPs for managing apps."
 version "2.0.0"
 
-depends "apt", "~> 2.9"
-depends "docker", "2.6.6"
-depends "packagecloud", "~> 0.1"
+depends "docker", "2.7.1"
+depends "packagecloud", "~> 0.2"
 depends "openssl", "~> 4.4"
 
 recipe "default", "Triggers install cookbooks and provides the LWRP."
